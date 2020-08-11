@@ -10,7 +10,7 @@ class Monday(unittest.TestCase):
 
     def test_login(self):
         self.driver.find_element_by_id("user_email").send_keys("timofii.sorokin@vaisible.com")
-        self.driver.find_element_by_id("user_password").send_keys("qweasdzxc1234")
+        self.driver.find_element_by_id("user_password").send_keys("XXXXXXXXX")
         self.driver.find_element_by_class_name("ladda-label").click()
 
         self.driver.get('https://vaisible.monday.com/admin/free-plan/overview')
